@@ -27,6 +27,7 @@
 		240768E82D49159800885E95 /* Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Architecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		240768FE2D49159900885E95 /* ArchitectureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240769082D49159900885E95 /* ArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2407691C2D49181C00885E95 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = MyLibrary; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -34,7 +35,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-				MyLibrary,
 			);
 			target = 240768E72D49159800885E95 /* Architecture */;
 		};
@@ -89,6 +89,7 @@
 		240768DF2D49159800885E95 = {
 			isa = PBXGroup;
 			children = (
+				2407691C2D49181C00885E95 /* MyLibrary */,
 				240768EA2D49159800885E95 /* Architecture */,
 				240769012D49159900885E95 /* ArchitectureTests */,
 				2407690B2D49159900885E95 /* ArchitectureUITests */,
