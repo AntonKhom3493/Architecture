@@ -34,6 +34,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				MyLibrary,
 			);
 			target = 240768E72D49159800885E95 /* Architecture */;
 		};
@@ -208,6 +209,9 @@
 			);
 			mainGroup = 240768DF2D49159800885E95;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2407691D2D49188700885E95 /* XCLocalSwiftPackageReference "Architecture/MyLibrary" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 240768E92D49159800885E95 /* Products */;
 			projectDirPath = "";
@@ -569,6 +573,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2407691D2D49188700885E95 /* XCLocalSwiftPackageReference "Architecture/MyLibrary" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Architecture/MyLibrary;
+		};
+/* End XCLocalSwiftPackageReference section */
 	};
 	rootObject = 240768E02D49159800885E95 /* Project object */;
 }
